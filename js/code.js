@@ -7,6 +7,7 @@ search.addEventListener("click", (e) =>{
 
     // document.write(`Number of chars: ${searched.length}`)
     console.log(`Number of chars: ${searched.length}`);
+    document.getElementById("nSentence").innerHTML = `Number of chars: ${searched.length}`
     
 });
 
@@ -16,5 +17,6 @@ char.addEventListener('click', (e) => {
     let numberOfChar = document.getElementById("word").value;
     
     // document.write(`${numberOfChar} is at position: ${search.indexOf(numberOfChar)}`);
-    console.log(`${numberOfChar} is at position: ${search.indexOf(numberOfChar)}`);
+    // console.log(`${numberOfChar} is at position: ${search.indexOf(numberOfChar)}`);
+    document.getElementById("nChars").innerHTML = `${numberOfChar} is at position: ${search.indexOf(numberOfChar)}`
 });

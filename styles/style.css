@@ -14,13 +14,16 @@ body{
     height: auto;
     background-color: green;
     margin-top: 10%;
-    margin: 12rem 0 0 40%;
+    margin: 2rem 0 0 40%;
     border-radius: 5px;
 }
 
 .container form{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+}
+p{
+    margin: 10px 0 10px 0;
 }
 
 h1{
