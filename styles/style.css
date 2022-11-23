@@ -11,7 +11,7 @@ body{
 
 .container{
     width: 25vw;
-    height: auto;
+    /* height: auto; */
     background-color: green;
     margin-top: 10%;
     margin: 2rem 0 0 40%;
@@ -22,6 +22,11 @@ body{
     text-align: center;
     margin-top: 0px;
 }
+
+input{
+    width: 100%;
+}
+
 p{
     margin: 10px 0 10px 0;
 }
@@ -38,7 +43,7 @@ button{
 
 @media screen and (max-width: 599px) {
     .container{
-        min-width: 12rem;
+        width: 12rem;
     }
     
 }
