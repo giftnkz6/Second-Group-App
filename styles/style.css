@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 25vw;
+    width: 28vw;
     background-color: green;
     margin-top: 10%;
     margin: 2rem auto;
@@ -38,7 +38,7 @@ button{
     color: blue;
 }
 
-@media screen and (width <= 599px) {
+@media screen and (width <= 700px) {
     .container{
         width: 12rem;
     }
